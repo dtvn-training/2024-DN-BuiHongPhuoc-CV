@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href=".//style/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,400&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
@@ -33,12 +31,12 @@
               <div class="list-items">
                 <div class="main-menu">
                   <ul class="main-menu-list">
-                    <li><a class="main-menu-items">Home</a></li>
-                    <li><a class="main-menu-items">About</a></li>
-                    <li><a class="main-menu-items">Experience</a></li>
-                    <li><a class="main-menu-items">Technology</a></li>
-                    <li><a class="main-menu-items">Project</a></li>
-                    <li><a class="main-menu-items">Contact</a></li>
+                    <li><a class="main-menu-items" href="#">Home</a></li>
+                    <li><a class="main-menu-items" href="#about-section-id">About</a></li>
+                    <li><a class="main-menu-items" href="#about-experience-id">Experience</a></li>
+                    <li><a class="main-menu-items" href="#about-service-id">Service</a></li>
+                    <li><a class="main-menu-items" href="#about-project-id">Project</a></li>
+                    <li><a class="main-menu-items" href="#about-contact-id">Contact</a></li>
                   </ul>
                 </div>
               </div>
@@ -74,7 +72,7 @@
     </div>
     <!-- End Banner  -->
     <!-- About Section  -->
-    <div class="about-section">
+    <div class="about-section" id="about-section-id">
       <div class="container">
         <div class="row">
           <div class="about-section-pic">
@@ -108,7 +106,7 @@
     </div>
     <!-- End About Section  -->
 
-    <div class="experience-section">
+    <div id="about-experience-id" class="experience-section">
       <div class="container">
         <div class="row">
           <div class="experience-content col-lg-6" data-aos="fade-up">
@@ -174,7 +172,7 @@
     </div>
 
     <!-- tech section -->
-    <div class="service-section">
+    <div class="service-section" id="about-service-id">
       <div class="container">
         <div class="section-title">
           <h2 class="heading-section">Services</h2>
@@ -188,23 +186,26 @@
             <h4 class="service-title"><a href="">NodeJS</a></h4>
             <img class="img-service" src="./images/service-node.png" alt="">
             <p class="description">With experience in partical NodeJS projects, i'm confident to deal with your problem.</p>
+            <a href="#node-project-1" class="button-items">READ MORE</a>
           </div>
           <div class="service">
             <h4 class="service-title"><a href="">React</a></h4>
             <img class="img-service" src="./images/service-react.png" alt="">
             <p class="description">With React, i have experience in semester project that i can deal with basic issue and i'm training to develop my skill.</p>
+            <a href="#python-project-1" class="button-items">READ MORE</a>
           </div>
           <div class="service">
             <h4 class="service-title"><a href="">Python</a></h4>
             <img class="img-service" src="./images/service-python.png" alt="">
             <p class="description">I also can deal with Python project which is similar to AI because i have joined in a semester AI project.</p>
+            <a href="#python-project-1" class="button-items">READ MORE</a>
           </div>
         </div>
       </div>
     </div>
     
     <!-- project Section  -->
-    <div class="project-section">
+    <div class="project-section" id="about-project-id">
       <div class="container">
         <div class="project-header combo-header">
           <h2>
@@ -249,11 +250,10 @@
                     facilitate salary calculations, and provide monthly data analysis.
                   </p>
                   <p class="technology-using">Arduino, Camera esp32, NodeJS, ExpressJS, MongoDB, EJS, ReactNative </p>
-                  <a href="#" class="button-items">READ MORE</a>
                 </div>
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" id="node-project-1">
               <div class="project-item-detail">
                 <div class="project-thumb">
                 </div>
@@ -274,7 +274,7 @@
                 </div>
               </div>
             </div>
-            <div class="project-item">
+            <div class="project-item" id="python-project-1">
               <div class="project-item-detail">
                 <div class="project-thumb">
                 </div>
@@ -303,7 +303,7 @@
 
 
     <!-- Contact Section  -->
-    <div class="contact-section">
+    <div class="contact-section" id="about-contact-id">
       <div class="combo-header">
         <div class="container">
           <h2>
